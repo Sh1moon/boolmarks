@@ -1,0 +1,189 @@
+*
+    box-sizing: border-box
+
+
+:root
+    --light: light
+    --medium: medium
+    --main-color: #F1EEE1
+    --secondary-color: #FFFBF1
+    
+
+.right-paper
+    position: absolute
+    right: 0
+    z-index: -1
+    width: 613px
+    height: 2000px
+    background-color: #FFF
+
+body
+
+    
+    display: flex
+    width: 1440px
+    margin: 0 -50px 0 auto
+
+
+    font-family: 'Rubik'
+    font-weight: var(--light)
+
+    background-color: var(--main-color)
+
+a
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 8px
+
+    font-family: 'Rubik'
+    font-weight: var(--medium)
+    text-decoration: none
+    color: white
+
+
+
+.aside
+    position: absolute
+    top: 26px
+    left: 0
+
+    width: 94px
+    height: 1077px
+    margin-left: 23px
+    border-right: 2px solid #C1C1C1
+
+
+    &__inner
+        height: inherit
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: fit-content
+
+
+
+
+.nav
+    position: sticky
+    top: 190px
+    width: fit-content
+    display: flex
+    flex-direction: column
+    gap: 35px
+
+    align-items: center
+
+    &_border-red
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 61px
+        height: 61px
+        background-color: #E45F65
+        border-radius: 100%
+
+    &__img
+        width: 37px
+        height: 37px
+
+main
+    display: flex
+    flex-direction: column
+    width: 1247px
+    justify-content: center
+    margin-top:26px
+
+.header
+    position: relative  
+    display: flex
+    justify-content: space-between  
+    width: inherit
+
+
+
+
+
+    &__inp
+        width: 45.972vw
+        height: 47px
+        background-color: var(--main-color)
+
+        padding: 0 50px
+        font-weight: var(--light)
+        color: #858585
+
+        border: 1px solid #C1C1C1
+        border-radius: 50px
+        outline: none
+
+
+.admin
+    display: flex
+    align-items: center
+
+    &__txt
+        margin: 0 64px 0 13px
+        font-size: 16px
+        font-weight: var(--medium)
+
+.border-gray
+    display: flex
+    justify-content: center
+    align-items: center
+    width:46px
+    height: 46px
+    border-radius:100%
+    background-color:#E5E4DD
+
+.section1
+    display: flex
+    justify-content: space-between
+
+
+
+    &__title
+        font-weight: var(--medium)
+        font-size: 48px
+
+    &__txt
+        margin: 24px 0 50px 0
+        font-weight: var(--light)
+        font-size: 16px
+        line-height: 22px
+
+
+.left-wrapper
+    width: 475px
+
+.btn
+
+
+    width: 11.806vw
+    height: 39px
+
+    font-size: 16px 
+    border-radius: 40px
+    border: none
+    outline: none
+    background-color: #E45F65
+
+.right-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 20px
+    width: 524px
+
+    &__title
+        font-size: 36px
+        font-weight: var(--medium)
+
+    &__txt
+        font-size: 16px
+        font-weight: var(--light)
+        line-height: 21px
+
+.count
+    font-size: 16px
+    font-weight: var(--medium)
